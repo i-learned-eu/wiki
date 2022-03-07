@@ -1,6 +1,6 @@
 # 📰 Écrire un article
 
-Les articles d'I Learned sont écrits au format Markdown. Les articles sont stockés sur [ce repo](https://gitlab.ilearned.eu/i-learned/blog/content-fr).
+Les articles d'I Learned sont écrits au format Markdown. Ils sont stockés sur [ce repo](https://gitlab.ilearned.eu/i-learned/blog/content-fr).
 
 Voici la démarche à suivre pour proposer un article.
 
