@@ -114,7 +114,7 @@ footer, .toggle_node_modules-\@docusaurus-theme-classic-lib-next-theme-ColorMode
   width: min-content;
 }
 
-.pagination-nav__link:hover {
+.pagination-nav__link:hover, .pagination-nav__link:active {
   box-shadow: none;
   transform: translate(4px, 4px)
 }
@@ -124,5 +124,24 @@ footer, .toggle_node_modules-\@docusaurus-theme-classic-lib-next-theme-ColorMode
 }
 
 .pagination-nav__item {
-  max-width: 20%;
+  max-width: 200px;
+  min-width: 160px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.theme-doc-markdown img {
+  box-shadow: 10px 10px 0px #DDD, 10px 10px 0px 3px #FFF, 3px 3px 15px 3px #CCC;
+  border: 3px solid #FFF;
+  margin-top: 20px;
+  max-width: 800px;
+  transition: .2s !important;
+  margin-left: -13px;
+}
+
+.theme-doc-markdown img:hover {
+  transform: translate(13px, 13px);
+  box-shadow: 0px 0px 0px #DDD, 0px 0px 0px 3px #FFF, 3px 3px 15px 3px #EEE;
 }

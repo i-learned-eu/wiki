@@ -33,6 +33,10 @@ const config = {
     ],
   ],
 
+  plugins: [
+    'plugin-image-zoom'
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -42,13 +46,11 @@ const config = {
           alt: 'I Learned Wiki Logo',
           src: 'img/logo.svg',
         },
-        items: [
-          {
-            href: 'https://ilearned.eu',
-            label: '🏠 Site principal',
-            position: 'right',
-          },
-        ],
+        items: [{
+          href: 'https://ilearned.eu',
+          label: '🏠 Site principal',
+          position: 'right',
+        }, ],
       },
       footer: {
         style: 'dark',
@@ -58,6 +60,17 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      imageZoom: {
+        // CSS selector to apply the plugin to, defaults to '.markdown img'
+        selector: '.markdown img',
+        // Optional medium-zoom options
+        // see: https://www.npmjs.com/package/medium-zoom#options
+        options: {
+          margin: 82,
+          background: 'rgba(255, 255, 255, 0.8)',
+          scrollOffset: 0,
+        },
       },
     }),
 };
