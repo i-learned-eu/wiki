@@ -8,7 +8,7 @@ stages:
 build:
   stage: build
   script:
-    - npm build
+    - yarn build
   artifacts:
     paths:
       - build
