@@ -1,0 +1,29 @@
+default:
+  image: node:latest
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - npm build
+  artifacts:
+    paths:
+      - build
+
+prod-deploy-job:
+  stage: deploy
+  image: hub.ilearned.eu/i-learned/ci-cd/website-builder
+  script:
+    - eval $(ssh-agent -s)
+    - mkdir -p ~/.ssh
+    - echo "$SSH_KEY" > ~/.ssh/id_ed25519
+    - chmod 600 ~/.ssh/id_ed25519
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - rsync -az --exclude=".git*" --delete -e "ssh -p 53453 -i ~/.ssh/id_ed25519" build/ ci@web.ramle.be:/var/www/wiki.ilearned.eu
+
+  only:
+    - main
+
