@@ -11,7 +11,7 @@ tous les projets lui étant lié. I Learned est un blog collaboratif visant à r
 
 ## Article 3 — Siège social
 
-Le siège social est fixé à `•••••••`.
+Le siège social est fixé aux 41 boulevard D'Auvergne Appartement 343 16000 Angoulême.
 
 Il pourra être transféré par un vote de l’assemblée permanente.
 
