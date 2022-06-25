@@ -11,7 +11,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/logo.ico',
+  favicon: 'https://cdn.ilearned.eu/img/logo.ico',
   organizationName: 'i-learned', // Usually your GitHub org/user name.
   projectName: 'wiki', // Usually your repo name.
 
@@ -44,7 +44,7 @@ const config = {
         title: 'I Learned Wiki',
         logo: {
           alt: 'I Learned Wiki Logo',
-          src: 'img/logo.svg',
+          src: 'https://cdn.ilearned.eu/img/logo.svg',
         },
         items: [{
           href: 'https://ilearned.eu',
