@@ -16,4 +16,4 @@ Les services actuellements déployés sont :
 
 Le status des services est disponible sur [status.ilearned.eu](https://status.ilearned.eu)
 
-![Liste des services hébergés et ou ils sont hébergés](/static/schema_infra.png)
+![Liste des services hébergés et ou ils sont hébergés](/img/schema_infra.png)
