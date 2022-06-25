@@ -92,8 +92,8 @@
   }
 }
 
-footer, .toggle_node_modules-\@docusaurus-theme-classic-lib-next-theme-ColorModeToggle-styles-module, .iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-next-theme-IconExternalLink-styles-module {
-  display: none
+footer, .toggle_node_modules-\@docusaurus-theme-classic-lib-next-theme-ColorModeToggle-styles-module, .iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-next-theme-IconExternalLink-styles-module, .toggleButton_rCf9 {
+  display: none !important;
 }
 
 .navbar__items--right a {
