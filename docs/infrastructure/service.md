@@ -1,4 +1,4 @@
-# Liste des servises
+# Liste des services
 
 Les services actuellements déployés sont :
 - blog
