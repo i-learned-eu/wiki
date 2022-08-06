@@ -19,7 +19,8 @@ test:
 pages:
   stage: deploy
   script:
-    - mv ./build ../public
+    - yarn install
+    - yarn build
   artifacts:
     paths:
       - public
