@@ -4,7 +4,7 @@ Les articles d'I Learned sont écrits au format Markdown. Ils sont stockés sur 
 
 Voici la démarche à suivre pour proposer un article.
 
-> 🆘 Vous avez besoin d'aide ? N'hésitez pas à venir poser vos questions sur [Discord](https://discord.gg/ZyWUJYSc3C) !
+> 🆘 Vous avez besoin d'aide ? N'hésitez pas à venir poser vos questions sur [Discord](https://discord.ilearned.eu) !
 
 1. Créer un compte, si ce n'est pas déjà fait, sur [Gitlab](https://gitlab.ilearned.eu).
 2. Se rendre sur [le repo](https://gitlab.ilearned.eu/i-learned/blog/content-fr) contenant les articles.
@@ -24,9 +24,11 @@ Voici la démarche à suivre pour proposer un article.
   Slug: url-de-larticle
   Summary: Ceci est le résumé de mon super article !
   Title:  Le titre de mon article
+  Category: LaCategory
 
   Ceci *est* le contenu de **mon** article.
   ```
+  Les categories possibles sont : Sysadmin, Cybersécurité, Sciences, Pensées du libre, Réseau. Veillez à bien les orthographier.
 7. Aller dans la section "Merge Request" à gauche de l'écran.
 8. Créer une nouvelle Merge Request
   ![Remplit le champ titre et le corps du message](/img/pr_form.png)
